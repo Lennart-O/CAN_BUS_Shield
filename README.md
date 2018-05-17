@@ -9,6 +9,7 @@ Statt eines Arduino Nano kann auch ein beliebiger anderer Arduino mit SPI-Schnit
 Die CAN-Bus Interfaces solltet ihr besser nicht woanders bestellen, ich habe oft fehlerhafte bekommen. Mit dem Lieferanten auf Amazon habe ich ausschließlich gute Erfahrungen gemacht. Es schadet auch nicht einen in Reserve zu haben falls ihr mal einen zerschießt.
 
 Arduino Nano:
+
 https://www.amazon.de/Elegoo-Entwicklerboard-Arduino-Atmega328P-CH340/dp/B0713ZRJLC/
 oder:
 https://www.banggood.com/3Pcs-ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-Improved-Version-p-983486.html
