@@ -4,8 +4,14 @@ Diese CAN-Library dient zum Programmieren von CAN-Bus Controllern für Ladegerä
 
 ## Benötigte Hardware:
 
+Statt eines Arduino Nano kann auch ein beliebiger anderer Arduino mit SPI-Schnittstelle verwendet werden, z.B. Pro Mini, Uno oder Mega2560. Bestellung am besten bei Amazon oder Banggood, dort gibt es auch gute Starterkits und Zubehör. 
+
+Die CAN-Bus Interfaces solltet ihr besser nicht woanders bestellen, ich habe oft fehlerhafte bekommen. Mit dem Lieferanten auf Amazon habe ich ausschließlich gute Erfahrungen gemacht. Es schadet auch nicht einen in Reserve zu haben falls ihr mal einen zerschießt.
+
 Arduino Nano:
-https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-p-940937.html
+https://www.amazon.de/Elegoo-Entwicklerboard-Arduino-Atmega328P-CH340/dp/B0713ZRJLC/
+oder:
+https://www.banggood.com/3Pcs-ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-Improved-Version-p-983486.html
 
 CAN-Bus Interfaces:
 https://www.amazon.de/gp/product/B01IV3ZSKO
@@ -24,9 +30,10 @@ Am besten in die Beispiele schauen. Die Datei "Einstiegsbeispiel" enthält alle 
 
 ## Nützliche Tutorials:
 
+https://www.youtube.com/watch?v=cKf3MwjL2fc
+https://www.youtube.com/watch?v=ZHaxv-cGZFI
 
-
-## Englisch description from Seeed-Studio
+## English description from Seeed-Studio
 
 ### 1. Set the BaudRate
 
