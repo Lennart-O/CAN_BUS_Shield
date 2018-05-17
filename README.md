@@ -1,23 +1,11 @@
-# CAN BUS Shield
----
-[![CAN BUS Shield](https://statics3.seeedstudio.com/seeed/file/2017-08/bazaar528529_img_2653a.jpg)](https://www.seeedstudio.com/CAN-BUS-Shield-V2-p-2921.html)
 
-[CAN-BUS Shield V2](https://www.seeedstudio.com/CAN-BUS-Shield-V2-p-2921.html)
+## Hardware needed:
 
-CAN-BUS is a common industrial bus because of its long travel distance, medium communication speed and high reliability. It is commonly found on modern machine tools and as an automotive diagnostic bus. This CAN-BUS Shield adopts MCP2515 CAN Bus controller with SPI interface and MCP2551 CAN transceiver to give your Arduino/Seeeduino CAN-BUS capability. With an OBD-II converter cable added on and the OBD-II library imported, you are ready to build an onboard diagnostic device or data logger.
+Arduino Nano
+https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-p-940937.html?rmmds=search&cur_warehouse=CN
 
-- Implements CAN V2.0B at up to 1 Mb/s
-- SPI Interface up to 10 MHz
-- Standard (11 bit) and extended (29 bit) data and remote frames
-- Two receive buffers with prioritized message storage
-- Industrial standard 9 pin sub-D connector
-- Two LED indicators
-
-### Alternative Choice
-If your project is space limited, here is a [Serial CAN-BUS module](https://www.seeedstudio.com/Serial-CAN-BUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html) which has the full features of CAN Bus. The Serial CAN-BUS provides your Arduino or others MCU with the capability to communication to CAN Bus, such as hacking your vehicle. This Grove CAN-BUS module is controled by UART, that means if your MCU has a UART interface, this serial CAN BUS is available. Good news is that this Serial CAN BUS module needs only $14.9
-
-[![](https://www.seeedstudio.com/upload/image/20170826/1503688824337934.jpg)](https://www.seeedstudio.com/Serial-CAN-BUS-Module-based-on-MCP2551-and-MCP2515-p-2924.html)
-
+CAN-Bus interfaces
+https://www.amazon.de/gp/product/B01IV3ZSKO/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1
 
 ## Installation:
 
