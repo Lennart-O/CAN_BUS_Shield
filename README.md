@@ -12,13 +12,16 @@ Arduino Nano:
 
 https://www.amazon.de/Elegoo-Entwicklerboard-Arduino-Atmega328P-CH340/dp/B0713ZRJLC/
 oder:
+
 https://www.banggood.com/3Pcs-ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-Improved-Version-p-983486.html
 
 CAN-Bus Interfaces:
 https://www.amazon.de/gp/product/B01IV3ZSKO
 
 Zusätzlich wird folgendes benötigt:
+
 -Lötkolben
+
 -dünne Kabel
 
 ## Installation:
