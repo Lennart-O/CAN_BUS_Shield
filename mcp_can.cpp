@@ -22,6 +22,7 @@
   Hurvajs
   xboxpro1
   ttlappalainen
+  horace3
 
   The MIT License (MIT)
 
@@ -770,16 +771,16 @@ void MCP_CAN::mcp2515_read_canMsg( const byte buffer_load_addr, volatile unsigne
 {
   byte tbufdata[4];
   byte i;
-  
+
   MCP2515_SELECT();
   spi_readwrite(buffer_load_addr);
   // mcp2515 has auto-increment of address-pointer
   for (i = 0; i < 4; i++) tbufdata[i] = spi_read();
-  
-  *rtrBit=(tbufdata[3]&0x08 ? 1 : 0 );
-  
-  *id = (tbufdata[MCP_SIDH] << 3) + (tbufdata[MCP_SIDL] >> 5);
 
+  *rtrBit=(tbufdata[3]&0x08 ? 1 : 0 );            // <<<  does not work 23/1/2018
+
+  *id = (tbufdata[MCP_SIDH] << 3) + (tbufdata[MCP_SIDL] >> 5);
+   *ext=0;                                           // <<<   zero EXT bit  23/1/2013
   if ( (tbufdata[MCP_SIDL] & MCP_TXB_EXIDE_M) ==  MCP_TXB_EXIDE_M )
   {
     /* extended id                  */
@@ -788,12 +789,15 @@ void MCP_CAN::mcp2515_read_canMsg( const byte buffer_load_addr, volatile unsigne
     *id = (*id << 8) + tbufdata[MCP_EID0];
     *ext = 1;
   }
-  
-  *len=spi_read() & MCP_DLC_MASK;
-  for (i = 0; i < *len && i<CAN_MAX_CHAR_IN_MESSAGE; i++) {
+
+ // *len=spi_read() & MCP_DLC_MASK;             // <<< replaced with following statements
+   byte pMsgSize=spi_read();                    // <<< read Data Length 23/1/2018
+  *len=pMsgSize & MCP_DLC_MASK;                // <<< message length 23/1/2018
+  *rtrBit=(pMsgSize & MCP_RTR_MASK ? 1 : 0 );  // <<  get RTR bit  23/1/2018
+ for (i = 0; i < *len && i<CAN_MAX_CHAR_IN_MESSAGE; i++) {
     buf[i] = spi_read();
   }
-  
+
   MCP2515_UNSELECT();
 }
 
