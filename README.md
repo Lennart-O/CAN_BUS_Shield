@@ -5,10 +5,10 @@ Diese CAN-Library dient zum Programmieren von CAN-Bus Controllern für Ladegerä
 ## Benötigte Hardware:
 
 Arduino Nano:
-https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-p-940937.html?rmmds=search&cur_warehouse=CN
+https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-p-940937.html
 
 CAN-Bus Interfaces:
-https://www.amazon.de/gp/product/B01IV3ZSKO/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1
+https://www.amazon.de/gp/product/B01IV3ZSKO
 
 Zusätzlich wird folgendes benötigt:
 -Lötkolben
