@@ -1,6 +1,6 @@
 ## Informationen:
 
-Diese CAN-Library dient zum Programmieren von CAN-Bus Controllern für Ladegeräte von TCCharger. Der dafür notwendige Code findet sich im Repository "TCCharger voltage & current control".
+Diese CAN-Library dient zum Programmieren von CAN-Bus Controllern für Ladegeräte von TCCharger oder auch andere. Der dafür notwendige Code findet sich im Repository "TCCharger voltage & current control".
 
 ## Benötigte Hardware:
 
