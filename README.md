@@ -1,10 +1,13 @@
+## Informationen:
+
+Diese CAN-Library dient zum Programmieren von CAN-Bus Controllern für Ladegeräte von TCCharger. Der dafür notwendige Code findet sich im Repository "TCCharger voltage & current control".
 
 ## Benötigte Hardware:
 
-Arduino Nano
+Arduino Nano:
 https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-p-940937.html?rmmds=search&cur_warehouse=CN
 
-CAN-Bus interfaces
+CAN-Bus Interfaces:
 https://www.amazon.de/gp/product/B01IV3ZSKO/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1
 
 Zusätzlich wird folgendes benötigt:
@@ -18,6 +21,8 @@ Die gesamte Library im .zip Format herunterladen und in der Arduino IDE importie
 ## Verwendung:
 
 Am besten in die Beispiele schauen. Die Datei "Einstiegsbeispiel" enthält alle wichtigen Funktionen mit Beschreibungen.
+
+## Nützliche Tutorials:
 
 
 
