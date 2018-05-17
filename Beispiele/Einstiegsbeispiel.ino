@@ -69,7 +69,7 @@ if(CAN_MSGAVAIL == CAN.checkReceive()){ //auf Nachrichten prüfen
       }
       
    
-   
+  
   //Daten senden
 
   byte sndStat = CAN.sendMsgBuf(sendId, 1, 8, data); //Nachricht senden (ID, Extended Frame, Datenlänge, Daten)
