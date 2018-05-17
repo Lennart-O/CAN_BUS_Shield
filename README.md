@@ -16,7 +16,7 @@ Zusätzlich wird folgendes benötigt:
 
 ## Installation:
 
-Die gesamte Library im .zip Format herunterladen und in der Arduino IDE importieren.
+Die gesamte Library im .zip Format herunterladen und in die Arduino IDE importieren.
 
 ## Verwendung:
 
