@@ -1,5 +1,5 @@
 
-## Hardware needed:
+## Benötigte Hardware:
 
 Arduino Nano
 https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-p-940937.html?rmmds=search&cur_warehouse=CN
@@ -7,22 +7,21 @@ https://www.banggood.com/ATmega328P-Nano-V3-Controller-Board-Compatible-Arduino-
 CAN-Bus interfaces
 https://www.amazon.de/gp/product/B01IV3ZSKO/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1
 
+Zusätzlich wird folgendes benötigt:
+-Lötkolben
+-dünne Kabel
+
 ## Installation:
 
-	git clone https://github.com/Seeed-Studio/CAN_BUS_Shield.git
+Die gesamte Library im .zip Format herunterladen und in der Arduino IDE importieren.
 
-or download the zip.
+## Verwendung:
 
-## Usage:
-
-
-
-Simply copy the CAN_BUS_Shield folder to your Arduino library collection.  For example,
-arduino-1.6.12/libraries.  Next time you run the Arduino IDE, you'll have a new option
-in Sketch -> Include Library -> CAN_BUS_Shield.  Review the included examples in 
-CAN_BUS_Shield/examples.
+Am besten in die Beispiele schauen. Die Datei "Einstiegsbeispiel" enthält alle wichtigen Funktionen mit Beschreibungen.
 
 
+
+## Englisch description from Seeed-Studio
 
 ### 1. Set the BaudRate
 
